@@ -91,17 +91,6 @@ if __name__ == '__main__':
         'directory. ')
 
     arg_parser.add_argument(
-        '-l',
-        '--language',
-        default=['en'],
-        metavar='LANG',
-        type=str,
-        nargs=1,
-        help=
-        'Build foreign language version of a specific set. The english version must have been built already for this '
-        'flag to be used. ')
-
-    arg_parser.add_argument(
         '--max-sets-build',
         default=[5],
         metavar='#',
